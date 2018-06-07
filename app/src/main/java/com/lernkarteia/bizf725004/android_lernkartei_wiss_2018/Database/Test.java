@@ -8,12 +8,12 @@ public class Test {
 
     DBDriver db;
 
-    void Test(Context c) {
+    public Test(Context c) {
         db  = new DBDriver(c, "Test");
-        test();
+        testdb();
     }
 
-    private void test(){
+    private void testdb(){
         try{
             db.doCommand("create table testtable(id integer primary key autoincrement, Kartei text)");
         } catch (Exception e){
