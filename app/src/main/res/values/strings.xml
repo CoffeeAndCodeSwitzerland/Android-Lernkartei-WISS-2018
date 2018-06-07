@@ -8,4 +8,5 @@
     <string name="action_settings">Settings</string>
     <string name="WelcomeText">Willkommen zurück wir haben Sie schon vermisst</string>
     <string name="YourProfilTitel">Dein Profil</string>
+    <string name="gamesToPlay">Welches Game möchten Sie spielen?</string>
 </resources>
